@@ -350,3 +350,146 @@ iframe{
 }
 
 }
+
+@media (max-width:425px){
+
+#conteudo{
+    grid-template-areas: 
+    'banner banner'
+    'vantagens vantagens'
+    'inscreva inscreva'
+    'video video'
+    'frase frase'
+    'pessoas pessoas'
+    'rede rede'
+    'footer footer';
+grid-template-rows: 800px 500px 300px 300px 200px 100px 250px 100px;
+}
+
+#banner{
+    flex-direction : column;
+    background-size: 300%;
+    
+}
+
+#banner h1{
+    font-size  : 70pt;
+    text-shadow: #000 -1px -1px;
+}
+
+#banner p{
+    font-size  : 20pt;
+    text-shadow: #000 -1px -1px
+}
+
+#imgban img{
+    padding: 25px;
+}
+
+#esquerda {
+    margin-left: 25px;
+
+}
+
+#direita img {
+    width: 230%;
+}
+
+#vantagens{
+    flex-direction: column;
+}
+
+#inscrevatitulo{
+    font-size: 25pt;
+    
+}
+
+#inscreva p{
+    width: 470px;
+}
+
+#inscrevaconteudo{
+    display: none;
+
+}
+
+input[type=text]{
+    height   : 70px;
+    width    : 440px;
+    font-size: 20pt;
+}
+
+
+input[type=button]{
+    height   : 72px;
+    width    : 100px;
+    font-size: 18pt;
+}
+
+#video{
+    width: 100%;
+}
+
+iframe{
+    width : 400px;
+    height: 250px;
+}
+
+#frase p{
+    font-size : 16pt;
+    text-align: center;
+}
+
+h4{
+    font-size: 12pt;
+}
+
+#pessoas img {
+    height: 55px;
+    width : 55px;
+
+}
+
+#rede p {
+    font-size: 16pt;
+}
+
+#icon img {
+    width : 50px;
+    height: 50px;
+    
+}
+
+#icon img:hover{
+    opacity: 1;
+}
+
+ul{
+    width    : 100vw;
+    font-size: 12pt;
+}
+
+
+}
+
+@media (max-width:375px){
+
+#direita img {
+        width: 280%;
+}
+
+#frase p {
+    font-size: 14pt;
+
+}
+
+@media (max-width:320px){
+#direita img {
+        width: 310%;
+}
+
+ul {
+    font-size: 10pt;
+}
+
+}
